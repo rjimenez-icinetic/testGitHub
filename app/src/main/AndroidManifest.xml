@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.pkg20161028105738" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.JacketsFilterActivity"
+            android:label="@string/jacketsFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.TrousersFilterActivity"
+            android:label="@string/trousersFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.ShirtsFilterActivity"
+            android:label="@string/shirtsFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.TiesFilterActivity"
+            android:label="@string/tiesFilterActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.StoreCatalogScreen1Activity"
+            android:label="@string/storeCatalogScreen1Activity"
+            android:theme="@style/AppTheme.MainScreen">
+          <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+      </activity>
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.JacketsActivity"
+            android:label="@string/jacketsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.JacketsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.TrousersActivity"
+            android:label="@string/trousersActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.TrousersDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.ShirtsActivity"
+            android:label="@string/shirtsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.ShirtsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.TiesActivity"
+            android:label="@string/tiesActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.TiesDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.ContactActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.ReviewsActivity"
+            android:label="@string/reviewsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20161028105738.ui.ReviewsDetailActivity"
+        />
+    </application>
+
+</manifest>

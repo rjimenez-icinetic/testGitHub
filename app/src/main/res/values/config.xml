@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Url for ibmmobileappbuilder-hosted data -->
+    <string name="dynamic_url">https://appbuilder-devel.buildup.io/api/app/data/</string>
+
+    <!-- authentication for app services -->
+    <string name="api_key">HrPNNc8lm8LCYBOd9FpAVUR686lGth1R2VPGXEKp1f</string>
+    <string name="app_id">aa51553f-bb4b-4de9-9bfb-0963a2ef8da3</string>
+
+</resources>
+
